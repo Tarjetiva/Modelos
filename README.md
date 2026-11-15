@@ -1,24 +1,18 @@
-# Tarjetiva · Modelos
+# Tarjetiva · Colección de tarjetas digitales
 
-Catálogo oficial de demostraciones interactivas de tarjetas digitales premium.
-
-## Direcciones una vez publicado en GitHub Pages
+Demostraciones interactivas publicadas por Tarjetiva. Las tarjetas son perfiles digitales compactos, **no páginas web comerciales largas**.
 
 - Catálogo: https://tarjetiva.github.io/Modelos/
-- Modelo 01 — ATELIER: https://tarjetiva.github.io/Modelos/modelos/atelier-01/
+- Modelo 01 (ATELIER): https://tarjetiva.github.io/Modelos/modelos/atelier-01/
 
-## Estructura
+## ATELIER 01
 
-- `index.html`: portada del catálogo.
-- `modelos/atelier-01/index.html`: demostración de la tarjeta premium.
-- `assets/css/atelier.css`: identidad visual y diseño responsive.
-- `assets/js/atelier.js`: modales, filtros, compartir, descarga de contacto, QR y animaciones.
-- `.nojekyll`: sirve los archivos estáticos sin procesamiento de Jekyll.
+Tarjeta móvil premium para una profesional ficticia, con portada, retrato, identidad y botones rápidos, guardar contacto de prueba (.vcf), compartir mediante Web Share API/copia de enlace, código QR, pestañas de perfil/servicios/galería y galería deslizable.
 
-## Publicación
+Las imágenes se obtienen de Unsplash y el QR se carga mediante api.qrserver.com. Requieren conexión. La información de Valeria Soto y sus proyectos es **ficticia**; por eso los accesos de WhatsApp, llamadas, correo y ubicación muestran una explicación de la función, sin contactar a personas reales. En producción, esos accesos se sustituyen por enlaces de contacto reales autorizados.
 
-Subir **todos** los archivos a la rama `main` de `Tarjetiva/Modelos` respetando la estructura de carpetas. En el repositorio, ir a **Settings → Pages → Build and deployment → Deploy from a branch**, elegir `main` y `/(root)` y guardar.
+## Despliegue
 
-GitHub Pages es estático: no hace falta servidor ni base de datos. La demostración incluye datos y proyectos ficticios. Las fotografías provienen de Unsplash y el servicio QR de `api.qrserver.com`, por lo que se requiere acceso a Internet para esos recursos. El contacto descargable utiliza `demo@example.com` y no representa a una persona real.
+GitHub Pages: rama `main`, carpeta `/(root)`. El sitio funciona como HTML/CSS/JavaScript estático, sin backend. La ruta del modelo se conserva para no romper los enlaces previamente compartidos.
 
 © Tarjetiva.
