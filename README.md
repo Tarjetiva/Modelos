@@ -16,3 +16,14 @@ Las imágenes se obtienen de Unsplash y el QR se carga mediante api.qrserver.com
 GitHub Pages: rama `main`, carpeta `/(root)`. El sitio funciona como HTML/CSS/JavaScript estático, sin backend. La ruta del modelo se conserva para no romper los enlaces previamente compartidos.
 
 © Tarjetiva.
+
+## Modelo 02 — ÓRBITA
+
+Demostración holográfica y responsive de una tarjeta de presentación digital ficticia.
+
+- Enlace: https://tarjetiva.github.io/Modelos/modelos/orbita-02/
+- Archivos: `modelos/orbita-02/index.html`, `assets/orbita.css`, `assets/orbita.js`
+- Interacciones: alternar paleta, pestañas accesibles, proyectos, QR, compartir, vCard demostrativa y botones informativos para canales que no tienen datos reales.
+- Diseño: composición horizontal en escritorio y tableta, vertical en móvil. Respetar preferencias de movimiento reducido.
+- El QR usa api.qrserver.com; la fotografía ilustrativa se carga de Unsplash y dispone de alternativa visual local si falla.
+- No se utilizan teléfonos reales ni se almacenan datos.

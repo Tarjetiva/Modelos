@@ -11,17 +11,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
   <style>
     :root{--ink:#27372e;--gold:#ae8d65}*{box-sizing:border-box}body{margin:0;background:#efeee8;color:var(--ink);font-family:'Plus Jakarta Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}a{text-decoration:none;color:inherit}a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.top{max-width:990px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:15px;padding:27px 22px}.logo{font-size:18px;font-weight:800;letter-spacing:-.07em}.logo span{color:#b49164}.top>a:last-child{font-size:11px;font-weight:800;color:#6b766a}.main{max-width:990px;padding:45px 22px 95px;margin:auto}.eyebrow{font-size:10px;letter-spacing:.21em;font-weight:800;color:#9c866d}.main h1{font:400 clamp(45px,6vw,75px)/1.1 'Playfair Display',Georgia,serif;letter-spacing:-.055em;margin:20px 0 17px;max-width:690px}.main h1 em{color:#ac8c66;font-weight:400}.subtitle{font-size:13px;line-height:1.85;color:#718075;max-width:540px;margin:0 0 44px}.collection-label{font-size:10px;font-weight:800;letter-spacing:.2em;color:#838f83;display:flex;align-items:center;gap:18px;margin:0 0 19px}.collection-label:after{content:'';height:1px;background:#cfd2c8;flex:1}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.preview{display:block;width:100%;border:1px solid #ffffffd8;background:#fffef9;box-shadow:0 12px 35px #223b2820;border-radius:19px;overflow:hidden;transition:transform .26s,box-shadow .26s}.preview:hover{transform:translateY(-6px);box-shadow:0 20px 40px #223b282a}.preview-cover{position:relative;height:148px;background:linear-gradient(125deg,#989d8a,#516559)}.preview-cover img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}.preview-cover:after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,#263b3270,transparent 65%)}.preview-mark{position:absolute;top:16px;left:19px;color:white;font:30px 'Playfair Display',Georgia,serif;z-index:1}.preview-avatar{height:73px;width:73px;object-fit:cover;border:4px solid #fffef9;border-radius:50%;display:block;margin:-38px auto 5px;position:relative;background:#ddd0c0}.preview-body{text-align:center;padding:0 20px 23px}.preview-body h2{font:400 26px 'Playfair Display',Georgia,serif;margin:8px 0 6px;letter-spacing:-.04em}.preview-body h2 em{color:#a68660}.preview-body>p{margin:0;font-size:10px;color:#798579}.preview-icons{display:flex;justify-content:center;gap:13px;margin:19px 0 18px}.preview-icons span{height:37px;width:37px;border-radius:11px;background:#eff2eb;color:#496452;display:grid;place-items:center;font-size:15px}.preview-open{display:block;background:#344b42;color:white;border-radius:11px;padding:13px 12px;font-weight:800;font-size:11px}.preview-footer{display:flex;align-items:center;justify-content:space-between;margin-top:16px;color:#7a867b;font-size:9px;font-weight:800;letter-spacing:.08em}.preview-footer strong{font-size:9px;color:#ad8e67}.coming{display:flex;align-items:center;justify-content:center;border:1px dashed #c8cec4;border-radius:19px;min-height:365px;background:#e7e9e2;color:#929d90;text-align:center;padding:30px}.coming strong{display:block;font:32px 'Playfair Display',Georgia,serif;color:#818c7e;font-weight:400;margin:15px 0 7px}.coming span{font-size:11px;letter-spacing:.07em}.coming .asterisk{font-size:36px;color:#aebaa7}footer{text-align:center;padding:30px 20px;border-top:1px solid #d4d6cd;font-size:10px;font-weight:700;color:#859083;letter-spacing:.06em}footer a{color:#557261}@media(max-width:750px){.main{padding-top:25px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.coming{min-height:350px}}@media(max-width:520px){.top{padding:20px}.main{padding:18px 20px 70px}.main h1{font-size:48px}.grid{grid-template-columns:1fr;max-width:360px;margin:auto}.preview-cover{height:165px}.preview-body{padding-bottom:26px}.coming{min-height:160px}.coming strong{font-size:24px}.coming .asterisk{font-size:25px}.preview-icons span{width:45px;height:45px}footer{font-size:9px}}
-  </style>
+  
+/* ÓRBITA 02 — distinct holographic business card thumbnail */
+.preview.neo{background:#141722;color:#f9f7ff;border-color:#ffffff21;box-shadow:0 12px 35px #1a173b34}
+.preview.neo:hover{box-shadow:0 20px 50px #241e6938}
+.preview.neo .preview-cover{height:148px;background:radial-gradient(circle at 50% 40%,#8570bd,#35335d 60%,#141723)}
+.preview.neo .preview-cover:after{background:repeating-linear-gradient(0deg,transparent 0 14px,#ffffff04 15px 16px)}
+.neo-art{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.neo-ring{height:118px;width:118px;border:1px solid #e4d7ffab;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 25px #b3a5ef35}
+.neo-disc{height:92px;width:76px;border:3px solid #f0e3ffdb;border-radius:50%;background:radial-gradient(circle at 25% 20%,#dda6ff,#52538e);display:grid;place-items:center;color:#d1ff79;font-size:31px;font-weight:800;font-family:'Plus Jakarta Sans',Arial,sans-serif;letter-spacing:-.12em;padding-right:.12em;transform:rotate(-7deg)}
+.neo-orbit-dot{position:absolute;height:13px;width:13px;border-radius:50%;background:#caff6b;top:22%;left:22%}
+.neo-top{position:absolute;z-index:2;left:16px;top:13px;font-size:9px;font-weight:800;letter-spacing:.15em;color:#e4ddfc}
+.neo-tag{position:absolute;z-index:2;right:15px;bottom:14px;font-size:9px;font-weight:800;color:#d3ff7f;letter-spacing:.15em}
+.neo-body{text-align:center;padding:17px 18px 23px}
+.neo-body h2{font:800 27px/1.12 'Plus Jakarta Sans',Arial,sans-serif;letter-spacing:-.07em;margin:4px 0 8px}
+.neo-body h2 em{font-style:normal;color:#c9ff76}
+.neo-body>p{font-size:10px;color:#b5b9cc;line-height:1.6;margin:0}
+.neo-actions{display:flex;justify-content:center;gap:9px;margin:19px 0 18px}
+.neo-actions span{height:37px;width:37px;border:1px solid #ffffff29;border-radius:12px;background:#ffffff0a;color:#d1ff79;display:grid;place-items:center;font-size:17px}
+.neo-open{display:block;padding:13px 12px;background:#caff70;color:#141722;font-size:11px;font-weight:800;border-radius:11px}
+.neo-footer{display:flex;justify-content:space-between;align-items:center;gap:5px;margin-top:16px;font-size:9px;font-weight:800;color:#9fa3ba;letter-spacing:.07em}
+.neo-footer strong{color:#d1ff79;font-size:9px}
+
+</style>
 </head>
 <body>
   <header class="top"><a href="https://tarjetiva.com/" class="logo" aria-label="Tarjetiva, página comercial">TARJETI<span>VA.</span></a><a href="https://tarjetiva.com/">IR A TARJETIVA ↗</a></header>
   <main class="main"><span class="eyebrow">TARJETIVA / COLECCIÓN DIGITAL</span><h1>Tu presentación,<br><em>una obra de arte.</em></h1><p class="subtitle">Tarjetas digitales que sorprenden desde el primer toque. Conoce nuestros modelos interactivos y elige el estilo que habla por ti.</p>
-    <div class="collection-label">MODELOS DISPONIBLES / 01</div>
+    <div class="collection-label">MODELOS DISPONIBLES / 02</div>
     <div class="grid">
       <a href="./modelos/atelier-01/" class="preview" aria-label="Abrir tarjeta digital ATELIER 01">
         <div class="preview-cover"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Interior de diseño, portada de la tarjeta ATELIER 01"><span class="preview-mark">A✳</span></div>
         <img class="preview-avatar" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&amp;fit=crop&amp;w=190&amp;h=190&amp;q=80" alt="Retrato de ejemplo">
         <div class="preview-body"><h2>Valeria <em>Soto</em></h2><p>Diseñadora de interiores · Quito</p><div class="preview-icons" aria-hidden="true"><span>✉</span><span>◉</span><span>⌖</span><span>↗</span></div><span class="preview-open">Abrir tarjeta digital ↗</span><div class="preview-footer"><span>MODELO 01 · ATELIER</span><strong>PREMIUM</strong></div></div>
+      </a>
+
+      <a href="./modelos/orbita-02/" class="preview neo" aria-label="Abrir tarjeta digital ÓRBITA 02, estilo holográfico">
+        <div class="preview-cover"><div class="neo-art" aria-hidden="true"><span class="neo-orbit-dot"></span><div class="neo-ring"><div class="neo-disc">LV</div></div></div><span class="neo-top">02 / ÓRBITA</span><span class="neo-tag">NEXT LEVEL ✳</span></div>
+        <div class="neo-body"><h2>Luna <em>Vega.</em></h2><p>Dirección creativa · Diseño sin límites</p><div class="neo-actions" aria-hidden="true"><span>✳</span><span>↗</span><span>⌁</span><span>⌗</span></div><span class="neo-open">Descubrir ÓRBITA 02 ↗</span><div class="neo-footer"><span>MODELO 02 · ÓRBITA</span><strong>HOLOGRÁFICO</strong></div></div>
       </a>
       <div class="coming"><div><span class="asterisk">✳</span><strong>Próximamente.</strong><span>NUEVOS ESTILOS</span></div></div>
     </div>
